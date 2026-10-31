@@ -1,0 +1,6 @@
+n,|E*|,build s,Z3 queries (build),evolutions,changed,G2 incr. s (med),BIS s (med),|BIS| (med),global diff s (med),outside-BIS rules queried,UNSAT,UNKNOWN,soundness violations,affected rules (exact),affected UNKNOWN
+50,11,0.0,15,30,26,0.03,0.000,1,0.012,1216,1216,0,0,71,0
+100,73,0.1,92,30,24,0.06,0.000,4,0.012,2157,2157,0,0,67,0
+200,263,0.2,326,30,22,0.12,0.001,2,0.020,3908,3908,0,0,50,0
+400,1683,0.8,1867,30,16,0.27,0.009,24,0.074,3978,3978,0,0,97,0
+800,7621,2.4,8596,30,15,0.61,0.448,214,0.144,not run,not run,not run,not run,not run,not run

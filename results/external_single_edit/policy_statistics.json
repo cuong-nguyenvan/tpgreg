@@ -1,0 +1,462 @@
+{
+ "iTrust": {
+  "N": 3680,
+  "rules": 64,
+  "policies": 1,
+  "nodes": {
+   "PolicySet": 1,
+   "Target": 66,
+   "CombAlg": 2,
+   "Policy": 1,
+   "Rule": 64,
+   "Condition": 64,
+   "Attribute": 3
+  },
+  "edges": {
+   "reads": 192,
+   "scopes": 65,
+   "contains": 195,
+   "combinedBy": 2
+  },
+  "t_build": 0.0024079579999352063,
+  "oracle": {
+   "xfg_err": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "w1_err": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "w1_n": [
+    64,
+    64,
+    64,
+    64,
+    64
+   ],
+   "w1cf_err": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "w1cf_n": [
+    64,
+    64,
+    64,
+    64,
+    64
+   ],
+   "w1cf_nondec": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "never_decisive": [],
+  "w1_empty": [],
+  "w1cf_empty": [],
+  "never_applicable": [],
+  "w1_exhaustive": {
+   "exact": {
+    "wrong_expected": [],
+    "non_decisive": [],
+    "empty": []
+   },
+   "cf": {
+    "wrong_expected": [],
+    "non_decisive": [],
+    "empty": []
+   }
+  },
+  "xfg_wrong_rules": [],
+  "wrong_frac": {
+   "ITRUST.P1.R1": 0.0,
+   "ITRUST.P1.R2": 0.0,
+   "ITRUST.P1.R3": 0.0,
+   "ITRUST.P1.R4": 0.0,
+   "ITRUST.P1.R5": 0.0,
+   "ITRUST.P1.R6": 0.0,
+   "ITRUST.P1.R7": 0.0,
+   "ITRUST.P1.R8": 0.0,
+   "ITRUST.P1.R9": 0.0,
+   "ITRUST.P1.R10": 0.0,
+   "ITRUST.P1.R11": 0.0,
+   "ITRUST.P1.R12": 0.0,
+   "ITRUST.P1.R13": 0.0,
+   "ITRUST.P1.R14": 0.0,
+   "ITRUST.P1.R15": 0.0,
+   "ITRUST.P1.R16": 0.0,
+   "ITRUST.P1.R17": 0.0,
+   "ITRUST.P1.R18": 0.0,
+   "ITRUST.P1.R19": 0.0,
+   "ITRUST.P1.R20": 0.0,
+   "ITRUST.P1.R21": 0.0,
+   "ITRUST.P1.R22": 0.0,
+   "ITRUST.P1.R23": 0.0,
+   "ITRUST.P1.R24": 0.0,
+   "ITRUST.P1.R25": 0.0,
+   "ITRUST.P1.R26": 0.0,
+   "ITRUST.P1.R27": 0.0,
+   "ITRUST.P1.R28": 0.0,
+   "ITRUST.P1.R29": 0.0,
+   "ITRUST.P1.R30": 0.0,
+   "ITRUST.P1.R31": 0.0,
+   "ITRUST.P1.R32": 0.0,
+   "ITRUST.P1.R33": 0.0,
+   "ITRUST.P1.R34": 0.0,
+   "ITRUST.P1.R35": 0.0,
+   "ITRUST.P1.R36": 0.0,
+   "ITRUST.P1.R37": 0.0,
+   "ITRUST.P1.R38": 0.0,
+   "ITRUST.P1.R39": 0.0,
+   "ITRUST.P1.R40": 0.0,
+   "ITRUST.P1.R41": 0.0,
+   "ITRUST.P1.R42": 0.0,
+   "ITRUST.P1.R43": 0.0,
+   "ITRUST.P1.R44": 0.0,
+   "ITRUST.P1.R45": 0.0,
+   "ITRUST.P1.R46": 0.0,
+   "ITRUST.P1.R47": 0.0,
+   "ITRUST.P1.R48": 0.0,
+   "ITRUST.P1.R49": 0.0,
+   "ITRUST.P1.R50": 0.0,
+   "ITRUST.P1.R51": 0.0,
+   "ITRUST.P1.R52": 0.0,
+   "ITRUST.P1.R53": 0.0,
+   "ITRUST.P1.R54": 0.0,
+   "ITRUST.P1.R55": 0.0,
+   "ITRUST.P1.R56": 0.0,
+   "ITRUST.P1.R57": 0.0,
+   "ITRUST.P1.R58": 0.0,
+   "ITRUST.P1.R59": 0.0,
+   "ITRUST.P1.R60": 0.0,
+   "ITRUST.P1.R61": 0.0,
+   "ITRUST.P1.R62": 0.0,
+   "ITRUST.P1.R63": 0.0,
+   "ITRUST.P1.R64": 0.0
+  }
+ },
+ "Pluto": {
+  "N": 910,
+  "rules": 21,
+  "policies": 1,
+  "nodes": {
+   "PolicySet": 1,
+   "Target": 23,
+   "CombAlg": 2,
+   "Policy": 1,
+   "Rule": 21,
+   "Condition": 21,
+   "Attribute": 3
+  },
+  "edges": {
+   "scopes": 22,
+   "reads": 60,
+   "contains": 66,
+   "overrides": 20,
+   "combinedBy": 2
+  },
+  "t_build": 0.002076311000109854,
+  "oracle": {
+   "xfg_err": [
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "w1_err": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "w1_n": [
+    21,
+    21,
+    21,
+    21,
+    21
+   ],
+   "w1cf_err": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "w1cf_n": [
+    21,
+    21,
+    21,
+    21,
+    21
+   ],
+   "w1cf_nondec": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "never_decisive": [],
+  "w1_empty": [],
+  "w1cf_empty": [],
+  "never_applicable": [],
+  "w1_exhaustive": {
+   "exact": {
+    "wrong_expected": [],
+    "non_decisive": [],
+    "empty": []
+   },
+   "cf": {
+    "wrong_expected": [],
+    "non_decisive": [],
+    "empty": []
+   }
+  },
+  "xfg_wrong_rules": [
+   "PLUTO.P1.R21"
+  ],
+  "wrong_frac": {
+   "PLUTO.P1.R1": 0.0,
+   "PLUTO.P1.R2": 0.0,
+   "PLUTO.P1.R3": 0.0,
+   "PLUTO.P1.R4": 0.0,
+   "PLUTO.P1.R5": 0.0,
+   "PLUTO.P1.R6": 0.0,
+   "PLUTO.P1.R7": 0.0,
+   "PLUTO.P1.R8": 0.0,
+   "PLUTO.P1.R9": 0.0,
+   "PLUTO.P1.R10": 0.0,
+   "PLUTO.P1.R11": 0.0,
+   "PLUTO.P1.R12": 0.0,
+   "PLUTO.P1.R13": 0.0,
+   "PLUTO.P1.R14": 0.0,
+   "PLUTO.P1.R15": 0.0,
+   "PLUTO.P1.R16": 0.0,
+   "PLUTO.P1.R17": 0.0,
+   "PLUTO.P1.R18": 0.0,
+   "PLUTO.P1.R19": 0.0,
+   "PLUTO.P1.R20": 0.0,
+   "PLUTO.P1.R21": 0.19230769230769232
+  }
+ },
+ "Conference": {
+  "N": 27,
+  "rules": 15,
+  "policies": 1,
+  "nodes": {
+   "PolicySet": 1,
+   "Target": 17,
+   "CombAlg": 2,
+   "Policy": 1,
+   "Rule": 15,
+   "Condition": 15,
+   "Attribute": 2
+  },
+  "edges": {
+   "contains": 48,
+   "overrides": 14,
+   "reads": 28,
+   "scopes": 16,
+   "combinedBy": 2
+  },
+  "t_build": 0.0005100959999708721,
+  "oracle": {
+   "xfg_err": [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "w1_err": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "w1_n": [
+    15,
+    15,
+    15,
+    15,
+    15
+   ],
+   "w1cf_err": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "w1cf_n": [
+    15,
+    15,
+    15,
+    15,
+    15
+   ],
+   "w1cf_nondec": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "never_decisive": [],
+  "w1_empty": [],
+  "w1cf_empty": [],
+  "never_applicable": [],
+  "w1_exhaustive": {
+   "exact": {
+    "wrong_expected": [],
+    "non_decisive": [],
+    "empty": []
+   },
+   "cf": {
+    "wrong_expected": [],
+    "non_decisive": [],
+    "empty": []
+   }
+  },
+  "xfg_wrong_rules": [
+   "CONFERENCE.P1.R15"
+  ],
+  "wrong_frac": {
+   "CONFERENCE.P1.R1": 0.0,
+   "CONFERENCE.P1.R2": 0.0,
+   "CONFERENCE.P1.R3": 0.0,
+   "CONFERENCE.P1.R4": 0.0,
+   "CONFERENCE.P1.R5": 0.0,
+   "CONFERENCE.P1.R6": 0.0,
+   "CONFERENCE.P1.R7": 0.0,
+   "CONFERENCE.P1.R8": 0.0,
+   "CONFERENCE.P1.R9": 0.0,
+   "CONFERENCE.P1.R10": 0.0,
+   "CONFERENCE.P1.R11": 0.0,
+   "CONFERENCE.P1.R12": 0.0,
+   "CONFERENCE.P1.R13": 0.0,
+   "CONFERENCE.P1.R14": 0.0,
+   "CONFERENCE.P1.R15": 0.5185185185185185
+  }
+ },
+ "Fedora": {
+  "N": 200,
+  "rules": 12,
+  "policies": 1,
+  "nodes": {
+   "PolicySet": 1,
+   "Target": 14,
+   "CombAlg": 2,
+   "Policy": 1,
+   "Rule": 12,
+   "Condition": 12,
+   "Attribute": 4
+  },
+  "edges": {
+   "scopes": 13,
+   "contains": 39,
+   "reads": 19,
+   "combinedBy": 2,
+   "overrides": 13
+  },
+  "t_build": 0.0009090640000977146,
+  "oracle": {
+   "xfg_err": [
+    1,
+    0,
+    0,
+    3,
+    3
+   ],
+   "w1_err": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "w1_n": [
+    12,
+    12,
+    12,
+    12,
+    12
+   ],
+   "w1cf_err": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "w1cf_n": [
+    12,
+    12,
+    12,
+    12,
+    12
+   ],
+   "w1cf_nondec": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "never_decisive": [],
+  "w1_empty": [],
+  "w1cf_empty": [],
+  "never_applicable": [],
+  "w1_exhaustive": {
+   "exact": {
+    "wrong_expected": [],
+    "non_decisive": [],
+    "empty": []
+   },
+   "cf": {
+    "wrong_expected": [],
+    "non_decisive": [],
+    "empty": []
+   }
+  },
+  "xfg_wrong_rules": [
+   "FEDORA.P1.R11",
+   "FEDORA.P1.R12",
+   "FEDORA.P1.R8",
+   "FEDORA.P1.R9"
+  ],
+  "wrong_frac": {
+   "FEDORA.P1.R1": 0.0,
+   "FEDORA.P1.R2": 0.0,
+   "FEDORA.P1.R3": 0.0,
+   "FEDORA.P1.R4": 0.0,
+   "FEDORA.P1.R5": 0.0,
+   "FEDORA.P1.R6": 0.0,
+   "FEDORA.P1.R7": 0.0,
+   "FEDORA.P1.R8": 0.3,
+   "FEDORA.P1.R9": 0.23,
+   "FEDORA.P1.R10": 0.3,
+   "FEDORA.P1.R11": 0.3,
+   "FEDORA.P1.R12": 0.3
+  }
+ }
+}

@@ -1,0 +1,8 @@
+PASS FA same effect: cf-W1(r2) satisfiable but r2 not decisive
+PASS FA same effect: exact W1(r2) unsatisfiable (dead)
+PASS FA same effect: Z3 Dec(r2) is UNSAT
+PASS FA swap: decision unchanged although r1 loses decisiveness
+PASS nested PO: r decisive on every request
+PASS nested PO: exact W1(r) satisfiable
+PASS nested PO: cf-W1(r) unsatisfiable (review 3b)
+PASS two-level soundness: affected ['Z.P1.R1', 'Z.P1.R2', 'Z.P2.R1'] within BIS ['Z.P1.R1', 'Z.P1.R2', 'Z.P2.R1']

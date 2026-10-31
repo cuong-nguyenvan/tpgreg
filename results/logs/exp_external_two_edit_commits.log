@@ -1,0 +1,104 @@
+iTrust commits 40
+Pluto commits 40
+Conference commits 40
+Fedora commits 40
+{
+ "clean": {
+  "n": 160,
+  "oracle_flaggable_exhaustive": 0,
+  "Retest-all": {
+   "flag": 0.0,
+   "det": 0.6737500000000001,
+   "size": 26.76125
+  },
+  "XFG-Regen": {
+   "flag": 0.0,
+   "det": 0.47874999999999995,
+   "size": 26.485000000000003
+  },
+  "AST-Up": {
+   "flag": 0.0,
+   "det": 0.6925,
+   "size": 3.4325
+  },
+  "TPG-Reg": {
+   "flag": 0.0,
+   "det": 0.99375,
+   "size": 7.144999999999999
+  },
+  "TPG-Reg+D": {
+   "flag": 0.0,
+   "det": 1.0,
+   "size": 6.8925
+  },
+  "TPG-Reg(D-only)": {
+   "flag": 0.0,
+   "det": 1.0,
+   "size": 1.13125
+  },
+  "Diff-1": {
+   "flag": 0.0,
+   "det": 1.0,
+   "size": 1.0
+  },
+  "Diff-k": {
+   "flag": 0.0,
+   "det": 1.0,
+   "size": 3.84125
+  },
+  "Diff-all": {
+   "flag": 0.0,
+   "det": 1.0,
+   "size": 1.13125
+  }
+ },
+ "dirty": {
+  "n": 160,
+  "oracle_flaggable_exhaustive": 159,
+  "Retest-all": {
+   "flag": 0.66375,
+   "det": 0.78625,
+   "size": 26.76125
+  },
+  "XFG-Regen": {
+   "flag": 0.41875,
+   "det": 0.63375,
+   "size": 26.17875
+  },
+  "AST-Up": {
+   "flag": 0.63,
+   "det": 0.7587499999999999,
+   "size": 6.0512500000000005
+  },
+  "TPG-Reg": {
+   "flag": 0.9887499999999999,
+   "det": 0.99375,
+   "size": 11.198749999999999
+  },
+  "TPG-Reg+D": {
+   "flag": 0.99375,
+   "det": 1.0,
+   "size": 10.80625
+  },
+  "TPG-Reg(D-only)": {
+   "flag": 0.9887499999999999,
+   "det": 1.0,
+   "size": 2.2712499999999998
+  },
+  "Diff-1": {
+   "flag": 0.525,
+   "det": 1.0,
+   "size": 1.0
+  },
+  "Diff-k": {
+   "flag": 0.9887499999999999,
+   "det": 1.0,
+   "size": 7.61125
+  },
+  "Diff-all": {
+   "flag": 0.9887499999999999,
+   "det": 1.0,
+   "size": 2.2725
+  }
+ }
+}

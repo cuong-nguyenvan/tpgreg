@@ -1,0 +1,8 @@
+Set,Rules,Path-oracle errors per suite,Error rate %,Exact W1: rules with wrong expected decision,Exact W1: rules with non-decisive requests,cf-W1: rules with wrong expected decision,cf-W1: rules with non-decisive requests,Dead rules (exact W1 unsatisfiable)
+HACS,25,2.0,8.0,0,0,0,H.R3 H.R6,H.R13
+FMS,30,5.4,18.0,0,0,0,F.R14 F.R15 F.R17 F.R22,F.R12
+SIS,20,2.8,14.0,0,0,0,S.R6 S.R8 S.R10 S.R12 S.R14 S.R15 S.R20,-
+iTrust,64,0.0,0.0,0,0,0,-,-
+Pluto,21,0.6,2.9,0,0,0,-,-
+Conference,15,0.2,1.3,0,0,0,-,-
+Fedora,12,1.4,11.7,0,0,0,-,-

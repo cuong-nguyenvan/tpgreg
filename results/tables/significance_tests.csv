@@ -1,0 +1,25 @@
+Comparison,EDR Wilcoxon p,EDR A12,ARE Wilcoxon p,ARE A12,McNemar b,McNemar c,McNemar p
+TPG-Reg vs Retest-all,4.32e-44,0.77,1.13e-46,0.75,156,2,6.9e-44
+TPG-Reg vs XFG-Regen,1.10e-51,0.83,5.65e-53,0.83,222,0,3.0e-67
+TPG-Reg vs Retest-all(GA),3.71e-45,0.79,1.52e-47,0.76,152,1,2.7e-44
+TPG-Reg vs XFG-Regen(GA),1.89e-50,0.83,7.93e-53,0.83,204,4,3.8e-55
+TPG-Reg vs AST-Up,5.19e-39,0.74,1.56e-41,0.71,125,0,4.7e-38
+TPG-Reg vs Diff-1,9.31e-09,0.45,3.30e-04,0.54,0,25,6.0e-08
+TPG-Reg vs Diff-k,9.31e-09,0.45,1.18e-13,0.44,0,25,6.0e-08
+TPG-Reg vs Diff-all,9.31e-09,0.45,1.07e-25,0.35,0,25,6.0e-08
+TPG-Reg+D vs Retest-all,5.68e-49,0.82,5.81e-53,0.85,179,0,2.6e-54
+TPG-Reg+D vs XFG-Regen,1.21e-56,0.87,7.90e-60,0.91,247,0,8.8e-75
+TPG-Reg+D vs Retest-all(GA),2.85e-51,0.84,8.67e-55,0.87,176,0,2.1e-53
+TPG-Reg+D vs XFG-Regen(GA),2.17e-56,0.88,2.09e-59,0.92,225,0,3.7e-68
+TPG-Reg+D vs AST-Up,5.68e-45,0.79,9.97e-50,0.82,150,0,1.4e-45
+TPG-Reg+D vs Diff-1,1.00e+00,0.50,2.40e-32,0.70,0,0,1.0e+00
+TPG-Reg+D vs Diff-k,1.00e+00,0.50,3.82e-20,0.62,0,0,1.0e+00
+TPG-Reg+D vs Diff-all,1.00e+00,0.50,1.00e+00,0.50,0,0,1.0e+00
+TPG-Reg(D-only) vs Retest-all,5.68e-49,0.82,5.81e-53,0.85,179,0,2.6e-54
+TPG-Reg(D-only) vs XFG-Regen,1.21e-56,0.87,7.90e-60,0.91,247,0,8.8e-75
+TPG-Reg(D-only) vs Retest-all(GA),2.85e-51,0.84,8.67e-55,0.87,176,0,2.1e-53
+TPG-Reg(D-only) vs XFG-Regen(GA),2.17e-56,0.88,2.09e-59,0.92,225,0,3.7e-68
+TPG-Reg(D-only) vs AST-Up,5.68e-45,0.79,9.97e-50,0.82,150,0,1.4e-45
+TPG-Reg(D-only) vs Diff-1,1.00e+00,0.50,2.40e-32,0.70,0,0,1.0e+00
+TPG-Reg(D-only) vs Diff-k,1.00e+00,0.50,3.82e-20,0.62,0,0,1.0e+00
+TPG-Reg(D-only) vs Diff-all,1.00e+00,0.50,1.00e+00,0.50,0,0,1.0e+00

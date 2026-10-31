@@ -1,0 +1,204 @@
+/usr/local/lib/python3.13/dist-packages/numpy/_core/fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/usr/local/lib/python3.13/dist-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+cost {
+"iTrust": {
+"obl_W": 4.771875,
+"obl_D": 5.771875,
+"obl_diffall": 64.0,
+"obl_Donly": 1.0,
+"t_gen_W_ms": 0.3072392812441649,
+"t_gen_D_ms": 0.444124081246855,
+"t_gen_diffall_ms": 0.037501940634498965,
+"t_bis_ms": 0.1802494562618051,
+"t_tpg2_ms": 0.765006946870983,
+"t_sem_ms": 1.7573622249980048
+},
+"Pluto": {
+"obl_W": 13.362676056338028,
+"obl_D": 16.801056338028168,
+"obl_diffall": 21.0,
+"obl_Donly": 3.438380281690141,
+"t_gen_W_ms": 0.2662994260507295,
+"t_gen_D_ms": 0.5035668978777408,
+"t_gen_diffall_ms": 0.04151630282113012,
+"t_bis_ms": 0.11647089261211643,
+"t_tpg2_ms": 0.6760118327440043,
+"t_sem_ms": 1.5969414700683682
+},
+"Conference": {
+"obl_W": 34.56666666666667,
+"obl_D": 43.516666666666666,
+"obl_diffall": 15.016666666666667,
+"obl_Donly": 8.95,
+"t_gen_W_ms": 0.4783316999881511,
+"t_gen_D_ms": 0.9210980333061041,
+"t_gen_diffall_ms": 0.044986866684363726,
+"t_bis_ms": 0.09772188332135556,
+"t_tpg2_ms": 0.19650306667623835,
+"t_sem_ms": 0.26300188335805313
+},
+"Fedora": {
+"obl_W": 31.92,
+"obl_D": 38.68,
+"obl_diffall": 12.04,
+"obl_Donly": 6.76,
+"t_gen_W_ms": 0.48012971999014553,
+"t_gen_D_ms": 0.9238935999792375,
+"t_gen_diffall_ms": 0.04928369997287518,
+"t_bis_ms": 0.08772851997036923,
+"t_tpg2_ms": 0.23373206000542268,
+"t_sem_ms": 0.3585327199971289
+},
+"ALL": {
+"obl_W": 12.812625250501002,
+"obl_D": 15.96693386773547,
+"obl_diffall": 33.978957915831664,
+"obl_Donly": 3.1543086172344688,
+"t_gen_W_ms": 0.30288680560495335,
+"t_gen_D_ms": 0.530667601193265,
+"t_gen_diffall_ms": 0.040826931868884926,
+"t_bis_ms": 0.13435373948422802,
+"t_tpg2_ms": 0.6535608527035616,
+"t_sem_ms": 1.5061376913822986
+}
+}
+slice {'iTrust': 0.0004347826086956522, 'Pluto': 1.0, 'Conference': 1.0, 'Fedora': 0.7067, 'ALL': 0.6648037379106039}
+== iTrust: n=389 changed=320 equiv=69
+  Retest-all  EDR=1.000±0.000 ARE=1.000±0.000 size=64.0 sizeEq=64.0
+  XFG-Regen   EDR=0.778±0.000 ARE=0.778±0.000 size=63.8 sizeEq=64.0
+  Retest-all(GA) EDR=0.874±0.011 ARE=0.874±0.011 size=56.3 sizeEq=56.2
+  XFG-Regen(GA) EDR=0.682±0.011 ARE=0.682±0.011 size=56.1 sizeEq=56.2
+  AST-Up      EDR=1.000±0.000 ARE=1.000±0.000 size=7.9 sizeEq=3.3 BISrec=1.000 prec=0.137 miss_evo=0 bis=7.3 eqBIS=3.2 eqNonEmpty=65
+  TPG-Reg     EDR=1.000±0.000 ARE=1.000±0.000 size=1.6 sizeEq=3.7 BISrec=1.000 prec=1.000 miss_evo=0 bis=1.0 eqBIS=3.7 eqNonEmpty=6
+  TPG-Reg(raw) EDR=1.000±0.000 ARE=1.000±0.000 size=1.6 sizeEq=3.7
+  TPG-Reg+D   EDR=1.000±0.000 ARE=1.000±0.000 size=1.6 sizeEq=3.7
+  -precedes   EDR=1.000±0.000 ARE=1.000±0.000 size=1.6 sizeEq=3.7 BISrec=1.000 prec=1.000 miss_evo=0 bis=1.0 eqBIS=3.7 eqNonEmpty=6
+  -overrides  EDR=1.000±0.000 ARE=1.000±0.000 size=1.6 sizeEq=3.7 BISrec=1.000 prec=1.000 miss_evo=0 bis=1.0 eqBIS=3.7 eqNonEmpty=6
+  -scopes     EDR=1.000±0.000 ARE=1.000±0.000 size=1.6 sizeEq=0.1 BISrec=1.000 prec=1.000 miss_evo=0 bis=1.0 eqBIS=0.0 eqNonEmpty=2
+  -refers     EDR=1.000±0.000 ARE=1.000±0.000 size=1.6 sizeEq=3.7 BISrec=1.000 prec=1.000 miss_evo=0 bis=1.0 eqBIS=3.7 eqNonEmpty=6
+  TPG-Reg(cfW1) EDR=1.000±0.000 ARE=1.000±0.000 size=1.6 sizeEq=3.7
+  TPG-Reg(D-only) EDR=1.000±0.000 ARE=1.000±0.000 size=1.0 sizeEq=0.0
+  Diff-1      EDR=1.000±0.000 ARE=1.000±0.000 size=1.0 sizeEq=0.0
+  Diff-k      EDR=1.000±0.000 ARE=1.000±0.000 size=1.6 sizeEq=0.0
+  Diff-all    EDR=1.000±0.000 ARE=1.000±0.000 size=1.0 sizeEq=0.0
+== Pluto: n=593 changed=568 equiv=25
+  Retest-all  EDR=0.180±0.009 ARE=0.194±0.009 size=20.0 sizeEq=20.0
+  XFG-Regen   EDR=0.080±0.004 ARE=0.096±0.004 size=19.9 sizeEq=20.0
+  Retest-all(GA) EDR=0.176±0.011 ARE=0.190±0.011 size=20.0 sizeEq=20.0
+  XFG-Regen(GA) EDR=0.109±0.006 ARE=0.124±0.005 size=19.9 sizeEq=20.0
+  AST-Up      EDR=0.100±0.002 ARE=0.097±0.001 size=1.4 sizeEq=2.9 BISrec=0.509 prec=0.755 miss_evo=546 bis=1.4 eqBIS=3.0 eqNonEmpty=22
+  TPG-Reg     EDR=1.000±0.000 ARE=1.000±0.000 size=4.7 sizeEq=2.5 BISrec=1.000 prec=0.590 miss_evo=0 bis=3.4 eqBIS=2.6 eqNonEmpty=5
+  TPG-Reg(raw) EDR=1.000±0.000 ARE=1.000±0.000 size=10.8 sizeEq=7.2
+  TPG-Reg+D   EDR=1.000±0.000 ARE=1.000±0.000 size=3.7 sizeEq=2.5
+  -precedes   EDR=1.000±0.000 ARE=1.000±0.000 size=4.7 sizeEq=2.5 BISrec=1.000 prec=0.590 miss_evo=0 bis=3.4 eqBIS=2.6 eqNonEmpty=5
+  -overrides  EDR=1.000±0.000 ARE=1.000±0.000 size=2.5 sizeEq=2.5 BISrec=0.510 prec=1.000 miss_evo=565 bis=1.0 eqBIS=2.6 eqNonEmpty=5
+  -scopes     EDR=1.000±0.000 ARE=1.000±0.000 size=4.7 sizeEq=0.9 BISrec=1.000 prec=0.590 miss_evo=0 bis=3.4 eqBIS=0.9 eqNonEmpty=3
+  -refers     EDR=1.000±0.000 ARE=1.000±0.000 size=4.6 sizeEq=2.5 BISrec=1.000 prec=0.590 miss_evo=0 bis=3.4 eqBIS=2.6 eqNonEmpty=5
+  TPG-Reg(cfW1) EDR=1.000±0.000 ARE=1.000±0.000 size=4.7 sizeEq=2.5
+  TPG-Reg(D-only) EDR=1.000±0.000 ARE=1.000±0.000 size=1.0 sizeEq=0.0
+  Diff-1      EDR=1.000±0.000 ARE=0.984±0.000 size=1.0 sizeEq=0.0
+  Diff-k      EDR=1.000±0.000 ARE=0.992±0.000 size=2.3 sizeEq=0.0
+  Diff-all    EDR=1.000±0.000 ARE=1.000±0.000 size=1.0 sizeEq=0.0
+== Conference: n=78 changed=60 equiv=18
+  Retest-all  EDR=0.950±0.000 ARE=0.969±0.000 size=14.0 sizeEq=14.0
+  XFG-Regen   EDR=0.433±0.000 ARE=0.496±0.000 size=13.5 sizeEq=14.0
+  Retest-all(GA) EDR=0.950±0.000 ARE=0.969±0.000 size=14.0 sizeEq=14.0
+  XFG-Regen(GA) EDR=0.433±0.000 ARE=0.496±0.000 size=13.5 sizeEq=14.0
+  AST-Up      EDR=0.950±0.000 ARE=0.870±0.000 size=3.2 sizeEq=2.1 BISrec=0.565 prec=0.413 miss_evo=43 bis=3.0 eqBIS=2.1 eqNonEmpty=15
+  TPG-Reg     EDR=0.983±0.000 ARE=0.985±0.000 size=9.2 sizeEq=2.5 BISrec=1.000 prec=0.244 miss_evo=0 bis=8.9 eqBIS=2.6 eqNonEmpty=4
+  TPG-Reg(raw) EDR=0.990±0.008 ARE=0.991±0.007 size=11.1 sizeEq=3.0
+  TPG-Reg+D   EDR=1.000±0.000 ARE=1.000±0.000 size=9.2 sizeEq=2.5
+  -precedes   EDR=0.983±0.000 ARE=0.985±0.000 size=9.2 sizeEq=2.5 BISrec=1.000 prec=0.244 miss_evo=0 bis=8.9 eqBIS=2.6 eqNonEmpty=4
+  -overrides  EDR=0.983±0.000 ARE=0.985±0.000 size=1.7 sizeEq=2.5 BISrec=0.565 prec=1.000 miss_evo=57 bis=1.2 eqBIS=2.6 eqNonEmpty=4
+  -scopes     EDR=0.983±0.000 ARE=0.985±0.000 size=9.2 sizeEq=0.9 BISrec=1.000 prec=0.244 miss_evo=0 bis=8.9 eqBIS=0.9 eqNonEmpty=2
+  -refers     EDR=0.983±0.000 ARE=0.985±0.000 size=9.2 sizeEq=2.5 BISrec=1.000 prec=0.244 miss_evo=0 bis=8.9 eqBIS=2.6 eqNonEmpty=4
+  TPG-Reg(cfW1) EDR=0.983±0.000 ARE=0.985±0.000 size=9.2 sizeEq=2.5
+  TPG-Reg(D-only) EDR=1.000±0.000 ARE=1.000±0.000 size=1.2 sizeEq=0.0
+  Diff-1      EDR=1.000±0.000 ARE=0.901±0.000 size=1.0 sizeEq=0.0
+  Diff-k      EDR=1.000±0.000 ARE=1.000±0.000 size=1.8 sizeEq=0.0
+  Diff-all    EDR=1.000±0.000 ARE=1.000±0.000 size=1.2 sizeEq=0.0
+== Fedora: n=64 changed=50 equiv=14
+  Retest-all  EDR=0.532±0.035 ARE=0.436±0.026 size=9.1 sizeEq=9.1
+  XFG-Regen   EDR=0.332±0.030 ARE=0.337±0.018 size=8.7 sizeEq=9.0
+  Retest-all(GA) EDR=0.532±0.027 ARE=0.374±0.017 size=9.3 sizeEq=9.3
+  XFG-Regen(GA) EDR=0.424±0.034 ARE=0.359±0.049 size=8.9 sizeEq=9.2
+  AST-Up      EDR=0.608±0.010 ARE=0.447±0.022 size=2.6 sizeEq=1.6 BISrec=0.496 prec=0.496 miss_evo=31 bis=2.7 eqBIS=1.6 eqNonEmpty=11
+  TPG-Reg     EDR=0.996±0.008 ARE=0.973±0.006 size=12.3 sizeEq=5.5 BISrec=1.000 prec=0.393 miss_evo=0 bis=6.8 eqBIS=2.6 eqNonEmpty=3
+  TPG-Reg(raw) EDR=0.988±0.010 ARE=0.979±0.012 size=27.2 sizeEq=12.6
+  TPG-Reg+D   EDR=1.000±0.000 ARE=1.000±0.000 size=12.1 sizeEq=5.4
+  -precedes   EDR=0.996±0.008 ARE=0.973±0.006 size=12.3 sizeEq=5.4 BISrec=1.000 prec=0.393 miss_evo=0 bis=6.8 eqBIS=2.6 eqNonEmpty=3
+  -overrides  EDR=0.956±0.023 ARE=0.477±0.027 size=1.8 sizeEq=3.6 BISrec=0.459 prec=1.000 miss_evo=39 bis=1.2 eqBIS=2.6 eqNonEmpty=3
+  -scopes     EDR=1.000±0.000 ARE=0.976±0.003 size=12.3 sizeEq=1.9 BISrec=1.000 prec=0.393 miss_evo=0 bis=6.8 eqBIS=0.9 eqNonEmpty=1
+  -refers     EDR=1.000±0.000 ARE=0.974±0.004 size=12.3 sizeEq=5.5 BISrec=1.000 prec=0.393 miss_evo=0 bis=6.8 eqBIS=2.6 eqNonEmpty=3
+  TPG-Reg(cfW1) EDR=1.000±0.000 ARE=0.976±0.003 size=12.3 sizeEq=5.4
+  TPG-Reg(D-only) EDR=1.000±0.000 ARE=1.000±0.000 size=1.7 sizeEq=0.0
+  Diff-1      EDR=1.000±0.000 ARE=0.617±0.012 size=1.0 sizeEq=0.0
+  Diff-k      EDR=1.000±0.000 ARE=0.982±0.012 size=8.6 sizeEq=0.0
+  Diff-all    EDR=1.000±0.000 ARE=1.000±0.000 size=1.7 sizeEq=0.0
+== ALL: n=1124 changed=998 equiv=126
+  Retest-all  EDR=0.507±0.006 ARE=0.420±0.007 size=33.2 sizeEq=42.0
+  XFG-Regen   EDR=0.338±0.003 ARE=0.270±0.003 size=33.0 sizeEq=42.0
+  Retest-all(GA) EDR=0.464±0.007 ARE=0.389±0.007 size=30.7 sizeEq=37.8
+  XFG-Regen(GA) EDR=0.328±0.004 ARE=0.273±0.003 size=30.6 sizeEq=37.8
+  AST-Up      EDR=0.465±0.001 ARE=0.349±0.002 size=3.6 sizeEq=2.8 BISrec=0.603 prec=0.306 miss_evo=620 bis=3.4 eqBIS=2.8 eqNonEmpty=113
+  TPG-Reg     EDR=0.999±0.000 ARE=0.997±0.000 size=4.3 sizeEq=3.5 BISrec=1.000 prec=0.552 miss_evo=0 bis=3.2 eqBIS=3.2 eqNonEmpty=18
+  TPG-Reg(raw) EDR=0.999±0.001 ARE=0.998±0.001 size=8.7 sizeEq=5.3
+  TPG-Reg+D   EDR=1.000±0.000 ARE=1.000±0.000 size=3.8 sizeEq=3.5
+  -precedes   EDR=0.999±0.000 ARE=0.997±0.000 size=4.3 sizeEq=3.5 BISrec=1.000 prec=0.552 miss_evo=0 bis=3.2 eqBIS=3.2 eqNonEmpty=18
+  -overrides  EDR=0.997±0.001 ARE=0.959±0.002 size=2.1 sizeEq=3.3 BISrec=0.600 prec=1.000 miss_evo=661 bis=1.0 eqBIS=3.2 eqNonEmpty=18
+  -scopes     EDR=0.999±0.000 ARE=0.997±0.000 size=4.3 sizeEq=0.6 BISrec=1.000 prec=0.552 miss_evo=0 bis=3.2 eqBIS=0.4 eqNonEmpty=8
+  -refers     EDR=0.999±0.000 ARE=0.997±0.000 size=4.3 sizeEq=3.5 BISrec=1.000 prec=0.552 miss_evo=0 bis=3.2 eqBIS=3.2 eqNonEmpty=18
+  TPG-Reg(cfW1) EDR=0.999±0.000 ARE=0.997±0.000 size=4.3 sizeEq=3.5
+  TPG-Reg(D-only) EDR=1.000±0.000 ARE=1.000±0.000 size=1.1 sizeEq=0.0
+  Diff-1      EDR=1.000±0.000 ARE=0.952±0.001 size=1.0 sizeEq=0.0
+  Diff-k      EDR=1.000±0.000 ARE=0.993±0.001 size=2.4 sizeEq=0.0
+  Diff-all    EDR=1.000±0.000 ARE=1.000±0.000 size=1.1 sizeEq=0.0
+per-op TPG/AST/-prec/-over/-scopes/-refers ARE:
+  CAC n=16 ch=3 Retest-all:0.90/1.00 XFG-Regen:0.90/1.00 Retest-all(GA):0.85/1.00 XFG-Regen(GA):0.87/1.00 AST-Up:0.08/0.67 TPG-Reg:1.00/1.00 TPG-Reg(raw):1.00/1.00 TPG-Reg+D:1.00/1.00 -precedes:1.00/1.00 -overrides:0.75/0.67 -scopes:1.00/1.00 -refers:1.00/1.00 TPG-Reg(cfW1):1.00/1.00 TPG-Reg(D-only):1.00/1.00 Diff-1:0.12/1.00 Diff-k:0.80/1.00 Diff-all:1.00/1.00
+  CCF n=768 ch=768 Retest-all:0.29/0.38 XFG-Regen:0.20/0.30 Retest-all(GA):0.27/0.34 XFG-Regen(GA):0.21/0.29 AST-Up:0.22/0.32 TPG-Reg:1.00/1.00 TPG-Reg(raw):1.00/1.00 TPG-Reg+D:1.00/1.00 -precedes:1.00/1.00 -overrides:0.98/1.00 -scopes:1.00/1.00 -refers:1.00/1.00 TPG-Reg(cfW1):1.00/1.00 TPG-Reg(D-only):1.00/1.00 Diff-1:0.99/1.00 Diff-k:1.00/1.00 Diff-all:1.00/1.00
+  CRE n=112 ch=112 Retest-all:0.88/0.94 XFG-Regen:0.88/0.94 Retest-all(GA):0.82/0.86 XFG-Regen(GA):0.84/0.87 AST-Up:0.91/0.98 TPG-Reg:1.00/1.00 TPG-Reg(raw):1.00/1.00 TPG-Reg+D:1.00/1.00 -precedes:1.00/1.00 -overrides:0.87/1.00 -scopes:1.00/1.00 -refers:1.00/1.00 TPG-Reg(cfW1):1.00/1.00 TPG-Reg(D-only):1.00/1.00 Diff-1:0.92/1.00 Diff-k:1.00/1.00 Diff-all:1.00/1.00
+  RAI n=8 ch=3 Retest-all:0.07/0.07 XFG-Regen:0.68/0.60 Retest-all(GA):0.07/0.07 XFG-Regen(GA):0.53/0.47 AST-Up:0.60/0.53 TPG-Reg:0.75/0.67 TPG-Reg(raw):0.85/0.80 TPG-Reg+D:1.00/1.00 -precedes:0.75/0.67 -overrides:0.53/0.47 -scopes:0.75/0.67 -refers:0.75/0.67 TPG-Reg(cfW1):0.75/0.67 TPG-Reg(D-only):1.00/1.00 Diff-1:1.00/1.00 Diff-k:1.00/1.00 Diff-all:1.00/1.00
+  RDL n=112 ch=112 Retest-all:0.90/0.93 XFG-Regen:0.00/0.00 Retest-all(GA):0.86/0.89 XFG-Regen(GA):0.01/0.01 AST-Up:0.91/0.94 TPG-Reg:1.00/1.00 TPG-Reg(raw):1.00/1.00 TPG-Reg+D:1.00/1.00 -precedes:1.00/1.00 -overrides:0.92/1.00 -scopes:1.00/1.00 -refers:1.00/1.00 TPG-Reg(cfW1):1.00/1.00 TPG-Reg(D-only):1.00/1.00 Diff-1:0.95/1.00 Diff-k:1.00/1.00 Diff-all:1.00/1.00
+  RRO n=108 ch=0 Retest-all:0.00/0.00 XFG-Regen:0.00/0.00 Retest-all(GA):0.00/0.00 XFG-Regen(GA):0.00/0.00 AST-Up:0.00/0.00 TPG-Reg:0.00/0.00 TPG-Reg(raw):0.00/0.00 TPG-Reg+D:0.00/0.00 -precedes:0.00/0.00 -overrides:0.00/0.00 -scopes:0.00/0.00 -refers:0.00/0.00 TPG-Reg(cfW1):0.00/0.00 TPG-Reg(D-only):0.00/0.00 Diff-1:0.00/0.00 Diff-k:0.00/0.00 Diff-all:0.00/0.00
+misses [] 0
+undetected [('Conference', 'RAI', 'CONFERENCE.P1.N0@0', 1, [False, False, False, False, False]), ('Fedora', 'CCF', 'FEDORA.P1.R4.cond[1, 1]', 2, [True, True, True, True, False])] 2
+{
+"iTrust": {
+"t_sem_ms": 1.7535339640097445,
+"t_tpg2_ms": 0.752598915163708,
+"t_bis_ms": 0.17808798458650144,
+"t_gen_ms": 0.38035616965937624
+},
+"Pluto": {
+"t_sem_ms": 1.5969922242814807,
+"t_tpg2_ms": 0.6758101045501613,
+"t_bis_ms": 0.11606667622918257,
+"t_gen_ms": 0.26453235749832993
+},
+"Conference": {
+"t_sem_ms": 0.2662229615581078,
+"t_tpg2_ms": 0.198933641035509,
+"t_bis_ms": 0.09345810255394892,
+"t_gen_ms": 0.41742387178927837
+},
+"Fedora": {
+"t_sem_ms": 0.3480274531284522,
+"t_tpg2_ms": 0.2305182343746992,
+"t_bis_ms": 0.08264937497060032,
+"t_gen_ms": 0.4438472343686328
+}
+}
+iTrust 3680 64 1 {'PolicySet': 1, 'Target': 66, 'CombAlg': 2, 'Policy': 1, 'Rule': 64, 'Condition': 64, 'Attribute': 3} {'reads': 192, 'scopes': 65, 'contains': 195, 'combinedBy': 2} build 0.0024079579999352063
+  oracle {'xfg_err': [0, 0, 0, 0, 0], 'w1_err': [0, 0, 0, 0, 0], 'w1_n': [64, 64, 64, 64, 64], 'w1cf_err': [0, 0, 0, 0, 0], 'w1cf_n': [64, 64, 64, 64, 64], 'w1cf_nondec': [0, 0, 0, 0, 0]} never_dec [] w1_empty [] xfgwrong []
+  w1_exhaustive {'exact': {'wrong_expected': [], 'non_decisive': [], 'empty': []}, 'cf': {'wrong_expected': [], 'non_decisive': [], 'empty': []}} w1cf_empty [] never_app []
+Pluto 910 21 1 {'PolicySet': 1, 'Target': 23, 'CombAlg': 2, 'Policy': 1, 'Rule': 21, 'Condition': 21, 'Attribute': 3} {'scopes': 22, 'reads': 60, 'contains': 66, 'overrides': 20, 'combinedBy': 2} build 0.002076311000109854
+  oracle {'xfg_err': [0, 1, 1, 1, 0], 'w1_err': [0, 0, 0, 0, 0], 'w1_n': [21, 21, 21, 21, 21], 'w1cf_err': [0, 0, 0, 0, 0], 'w1cf_n': [21, 21, 21, 21, 21], 'w1cf_nondec': [0, 0, 0, 0, 0]} never_dec [] w1_empty [] xfgwrong ['PLUTO.P1.R21']
+  w1_exhaustive {'exact': {'wrong_expected': [], 'non_decisive': [], 'empty': []}, 'cf': {'wrong_expected': [], 'non_decisive': [], 'empty': []}} w1cf_empty [] never_app []
+Conference 27 15 1 {'PolicySet': 1, 'Target': 17, 'CombAlg': 2, 'Policy': 1, 'Rule': 15, 'Condition': 15, 'Attribute': 2} {'contains': 48, 'overrides': 14, 'reads': 28, 'scopes': 16, 'combinedBy': 2} build 0.0005100959999708721
+  oracle {'xfg_err': [1, 0, 0, 0, 0], 'w1_err': [0, 0, 0, 0, 0], 'w1_n': [15, 15, 15, 15, 15], 'w1cf_err': [0, 0, 0, 0, 0], 'w1cf_n': [15, 15, 15, 15, 15], 'w1cf_nondec': [0, 0, 0, 0, 0]} never_dec [] w1_empty [] xfgwrong ['CONFERENCE.P1.R15']
+  w1_exhaustive {'exact': {'wrong_expected': [], 'non_decisive': [], 'empty': []}, 'cf': {'wrong_expected': [], 'non_decisive': [], 'empty': []}} w1cf_empty [] never_app []
+Fedora 200 12 1 {'PolicySet': 1, 'Target': 14, 'CombAlg': 2, 'Policy': 1, 'Rule': 12, 'Condition': 12, 'Attribute': 4} {'scopes': 13, 'contains': 39, 'reads': 19, 'combinedBy': 2, 'overrides': 13} build 0.0009090640000977146
+  oracle {'xfg_err': [1, 0, 0, 3, 3], 'w1_err': [0, 0, 0, 0, 0], 'w1_n': [12, 12, 12, 12, 12], 'w1cf_err': [0, 0, 0, 0, 0], 'w1cf_n': [12, 12, 12, 12, 12], 'w1cf_nondec': [0, 0, 0, 0, 0]} never_dec [] w1_empty [] xfgwrong ['FEDORA.P1.R11', 'FEDORA.P1.R12', 'FEDORA.P1.R8', 'FEDORA.P1.R9']
+  w1_exhaustive {'exact': {'wrong_expected': [], 'non_decisive': [], 'empty': []}, 'cf': {'wrong_expected': [], 'non_decisive': [], 'empty': []}} w1cf_empty [] never_app []

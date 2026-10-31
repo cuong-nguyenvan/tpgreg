@@ -1,0 +1,5 @@
+Set,Rules,Policies,|D|,precedes/overrides/refers,Evolutions,Behaviour-changing,BIS recall %,BIS precision %
+iTrust,64,1,3680,0/0/0,389,320,100.0,100.0
+Pluto,21,1,910,0/20/0,593,568,100.0,59.0
+Conference,15,1,27,0/14/0,78,60,100.0,24.4
+Fedora,12,1,200,0/13/0,64,50,100.0,39.3
