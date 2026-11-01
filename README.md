@@ -81,8 +81,3 @@ tests/         unit tests for corner cases of the decisive predicate (FA same ef
 third_party/   ndg-xacml 0.5.1 ported to Python 3 (BSD licence), used as independent PDP
 ```
 
-## Limitations
-
-- Supports deny-overrides, permit-overrides and first-applicable; Indeterminate, obligations and advice are not modelled.
-- All evolutions are synthetic (edit operators); the authored policies were written for this study, the XPA policies
-  are independent but small and lose obligations and advice in the import, and the large scalability policies are synthetic.
